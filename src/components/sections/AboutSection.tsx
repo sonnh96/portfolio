@@ -337,7 +337,7 @@ function MatrixRain() {
   }));
 
   return (
-    <div className="pointer-events-none select-none fixed">
+    <div className="pointer-events-none select-none fixed"> 
       {raindrops.map((drop) => (
         <div
           key={drop.id}
