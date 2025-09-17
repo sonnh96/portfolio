@@ -344,7 +344,7 @@ function MatrixRain() {
           className="absolute text-[#91FF8F]/20 text-xs font-mono"
           style={{ left: `${drop.x}%` }}
         >
-          {drop.chars.map((char, i) => (
+          {drop.chars.map((char, i) => ( 
             <motion.div
               key={`${drop.id}-${i}`}
               initial={{ y: -20, opacity: 0 }}
